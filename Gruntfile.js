@@ -21,4 +21,6 @@ module.exports = function(grunt) {
 
 	grunt.loadNpmTasks('grunt-exec');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+
+	grunt.registerTask( 'default', ['exec:prepare'] );
 };
